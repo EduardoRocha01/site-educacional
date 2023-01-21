@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'titulos';
+    src: url('./BebasNeue-Regular.otf')format('opentype');
+}
+
+
+/*configuração do menu*/
+header{
+    border-bottom: solid rgb(151, 135, 135);
+    padding: 5px;
+}
+
+header nav {
+    text-align: right;
+    margin: 5px;
+    
+}
+
+header nav a{
+    
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: rgb(65, 55, 43);
+    padding: 5px;
+    border-radius: 15px;
+    font-family: 'titulos';
+}
+
+.iconformat{
+    color: rgb(64, 64, 102);
+    margin: 1%;
+    font-size: 200%;
+    padding: auto;
+}
+
+.iconformat i{
+    margin-left: 5%;
+}
+
+/*definindo conteiner e box padrão*/
+
+.conteiner{
+    display: flex;
+    justify-content:space-between;
+    border: solid silver;
+    flex-wrap: wrap;
+
+
+}
+
+main{
+    background:linear-gradient(to right,white,rgb(174, 192, 206));
+}
+
+ nav a:hover{
+    background-color: aliceblue;
+    color: black;
+    border: solid black;
+    transition: 1s;
+}
+
+.box{
+    margin: 5px;
+    width: 300px;
+    max-height: 30%;
+    border: solid silver;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.075);
+}
+
+.box:hover{
+    box-shadow: 5px 5px 5px rgb(110, 58, 58);
+    transition: 1s;
+}
+
+.box a{
+    text-decoration: none;
+    color: black;
+}
+
+.box a:hover{
+    color: rgb(230, 238, 230);
+    
+}
+
+.box h1{
+    text-align: center;
+    font-family: 'titulos';
+    background-color: rgba(240, 248, 255, 0.651);
+    border-radius: 20px;
+}
+
+.box h2{
+    color: rgb(3, 12, 133);
+    font-size: 100%;
+}
+
+.box p{
+    background-color:rgba(148, 171, 192, 0.651);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.box img{
+    position: relative;
+    left: 17%;
+}
+
+.subtitulos h1{
+    width: 30%;
+    height: 5%;
+    background-color: rgb(31, 23, 20);
+    color: white;
+    font-family: 'titulos';
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.subtitulos{
+    display: flex;
+}
+
+/*animação do logo*/
+#logo{
+    animation: floating-logo 5s  infinite  linear;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+#imagem1{
+    position: relative;
+    top: -1%;
+    left: 3%;
+    margin-top: 1%;
+}
+
+@keyframes floating-logo {
+    0% {
+      transform: translate(0, 0);
+    }
+
+    50%{
+        transform: translate(0,20px);
+    }
+    100% {
+      transform: translate(0, 5px);
+    }
+  }
