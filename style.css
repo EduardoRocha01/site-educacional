@@ -150,3 +150,53 @@ main{
       transform: translate(0, 5px);
     }
   }
+
+
+  /*menu*/
+  @media screen and (max-width: 600px) {
+    .menu-desktop {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .menu-mobile {
+      display: none;
+    }
+  }
+  
+
+@media (max-width:600px) {
+
+    .menu-mobile ul li a{
+        background-color: rgb(170, 157, 157);
+        margin: 5px;
+        display: inline-block;
+        width: 100%;
+        margin-right: 5px;
+        
+    }
+
+    .menu-mobile{
+        margin: 5px;
+        display: inline;
+        background-color: aliceblue;
+    }
+
+   
+
+    .menu-mobile li{
+        color: rebeccapurple;
+    }
+
+    .menu-mobile i{
+         position: relative;
+         left: 30%;
+    }
+    
+}
+
+/* Esconde os itens do menu por padrão */
+.menu-items {
+    display: none;
+  }

@@ -1,7 +1,15 @@
 main{
     width: 90%;
-    background-color: rgb(252, 252, 251);
+    background: linear-gradient(to right, #87CEEB, #FFFFFF);
     margin: auto;
+    border-radius: 20px;
+
+}
+
+header{
+    background: linear-gradient(to left, #315197, #FFFFFF);
+    border-radius: 20px;
+
 
 }
 
@@ -80,8 +88,9 @@ header nav a{
     margin: auto;
     padding: 1%;
     margin-top: 2%;
-    background-color:#12133177;
     margin-left: 1%;
+    background: linear-gradient(to right, #2e4d75, #ffffff93);
+    
 }
 
 .bloco-conteudo h1{
