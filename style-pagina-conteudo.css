@@ -1,13 +1,25 @@
+@font-face {
+    font-family: 'titulos';
+    src: url('./BebasNeue-Regular.otf')format('opentype');
+}
+
+body{
+    background: linear-gradient(to right, #0d2444, #10316e93,#192f4b);
+}
+
+
 main{
     width: 90%;
-    background: linear-gradient(to right, #87CEEB, #FFFFFF);
+    background: linear-gradient(to right, #6787b1, #27809b93,#192f4b);
     margin: auto;
     border-radius: 20px;
+    margin-top: 2%;
+    padding-top: ;
 
 }
 
 header{
-    background: linear-gradient(to left, #315197, #FFFFFF);
+    background: linear-gradient(to right, #2e4d75, #27809b93,#192f4b);
     border-radius: 20px;
 
 
@@ -89,13 +101,14 @@ header nav a{
     padding: 1%;
     margin-top: 2%;
     margin-left: 1%;
-    background: linear-gradient(to right, #2e4d75, #ffffff93);
+    background: linear-gradient(to right, #2e4d75, #27809b93,#192f4b);
     
 }
 
 .bloco-conteudo h1{
     text-align: center;
-    width: 50%;
+    font-family: 'titulos';
+    width: 80%;
     color: rgb(82, 21, 21);
     background-color: rgb(222, 236, 232);
     border-radius: 20px;
@@ -103,15 +116,37 @@ header nav a{
 
 }
 
+.bloco-conteudo h2{
+    font-family: 'titulos';
+    width: 50%;
+    background-color: #0c1f47;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.bloco-conteudo h3{
+    font-family: 'titulos';
+    width: 50%;
+    background-color: #0c1f47;
+    color: rgb(21, 57, 173);
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
 .bloco-conteudo p{
     width: 95%;
     min-width: 95%;
     margin: auto;
     margin-bottom: 10%;
-    background-color: azure;
+    background-color: rgb(240, 240, 240);
     padding: 2%;
     border-radius: 20px;
     font-size: 20px;
+    font-weight: lighter;
+    font-family: 'titulos';
+    color: rgb(8, 61, 8);
 }
 
 .bloco-conteudo ul{
@@ -133,6 +168,24 @@ header nav a{
     
     
 }
+
+.titulospagina {
+    text-align: center;
+    background-color: #0c1f47;
+    display: flex;
+    margin: auto;
+    font-family: 'titulos';
+    font-size: 200%;
+    color: white;
+    padding-left: 30%;
+
+
+}
+
+.titulos h1{
+    margin-top: 10px;
+}
+
 
 #modulo-grande{
     width: 800px;
