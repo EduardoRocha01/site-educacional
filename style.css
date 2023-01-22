@@ -8,6 +8,8 @@
 header{
     border-bottom: solid rgb(151, 135, 135);
     padding: 5px;
+    background: linear-gradient(to left, #87CEEB, #FFFFFF);
+
 }
 
 header nav {
@@ -50,7 +52,8 @@ header nav a{
 }
 
 main{
-    background:linear-gradient(to right,white,rgb(174, 192, 206));
+    background: linear-gradient(to right, #87CEEB, #ffffff7a);
+
 }
 
  nav a:hover{
@@ -68,6 +71,7 @@ main{
     text-align: justify;
     border-radius: 20px;
     padding: 10px;
+    background: linear-gradient(to left, #3c6088, #FFFFFF);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.075);
 }
 
@@ -144,7 +148,7 @@ main{
     }
 
     50%{
-        transform: translate(0,20px);
+        transform: translate(0,10px);
     }
     100% {
       transform: translate(0, 5px);
@@ -199,4 +203,21 @@ main{
 /* Esconde os itens do menu por padrão */
 .menu-items {
     display: none;
+  }
+
+  /*media querry*/
+
+  @media (max-width:700px){
+
+         main{
+            width: 100%;
+    
+         }
+
+         .box{
+            margin: auto;
+            margin-top: 5px;
+         }
+
+    
   }
