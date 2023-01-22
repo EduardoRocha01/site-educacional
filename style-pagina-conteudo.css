@@ -10,12 +10,18 @@ body{
 
 main{
     width: 90%;
-    background: linear-gradient(to right, #6787b1, #27809b93,#192f4b);
+    background: linear-gradient(to right, #003399 0%, #000066 100%);
     margin: auto;
     border-radius: 20px;
     margin-top: 2%;
-    padding-top: ;
+    padding-top: 2%;
 
+}
+
+main:hover{
+    box-shadow: 0px 0px 20px rgb(216, 216, 203), 0px 0px 20px rgb(199, 199, 193);
+    transition: ease-in-out 2s;
+    
 }
 
 header{
@@ -105,6 +111,11 @@ header nav a{
     
 }
 
+.bloco-conteudo:hover{
+    box-shadow: 0px 0px 20px rgb(216, 216, 203), 0px 0px 20px rgb(199, 199, 193);
+    transition: ease-in-out 0.5s;
+}
+
 .bloco-conteudo h1{
     text-align: center;
     font-family: 'titulos';
@@ -113,6 +124,7 @@ header nav a{
     background-color: rgb(222, 236, 232);
     border-radius: 20px;
     margin-left: -3%;
+    box-shadow: 5px 5px 5px black;
 
 }
 
@@ -130,9 +142,9 @@ header nav a{
     width: 50%;
     background-color: #0c1f47;
     color: rgb(21, 57, 173);
-    border-radius: 20px;
     color: white;
     text-align: center;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.603),0px 0px 25px rgba(0, 0, 0, 0.555);
 }
 
 .bloco-conteudo p{
@@ -147,6 +159,11 @@ header nav a{
     font-weight: lighter;
     font-family: 'titulos';
     color: rgb(8, 61, 8);
+  
+}
+
+.bloco-conteudo p:hover{
+    box-shadow: 0px 0px 20px rgb(56, 179, 201), 0px 0px 20px rgb(50, 157, 172);
 }
 
 .bloco-conteudo ul{
@@ -177,13 +194,19 @@ header nav a{
     font-family: 'titulos';
     font-size: 200%;
     color: white;
-    padding-left: 30%;
+    margin-bottom: 2%;
 
+
+}
+
+.titulospagina:hover{
+    box-shadow: 0px 0px 20px rgb(221, 224, 17), 0px 0px 20px rgb(213, 228, 12);
 
 }
 
 .titulos h1{
     margin-top: 10px;
+    width: 50%;
 }
 
 
