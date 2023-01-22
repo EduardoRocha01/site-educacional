@@ -151,7 +151,14 @@ header nav a{
         flex-wrap: wrap;
         margin-bottom: 30px;
      }
+
+     .menu-items{
+        width: 30%;
+     }
     
+     nav{
+        text-decoration: none;
+     }
 }
 
 
