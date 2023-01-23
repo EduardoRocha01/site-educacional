@@ -11,3 +11,21 @@ menuIcon.addEventListener("click", function() {
     menuItems.style.display = "none";
   }
 });
+
+//escript de conteudo em janela
+
+const paragrafos = document.querySelectorAll(".paragrafo");
+
+paragrafos.forEach(function(paragrafo) {
+  paragrafo.addEventListener("click", function() {
+    const divId = `div${this.id.slice(-1)}`;
+    const div = document.getElementById(divId);
+    if (div.style.display === "none") {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
+
+
