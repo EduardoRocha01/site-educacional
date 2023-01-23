@@ -104,8 +104,10 @@ main{
 
 .box p{
     background-color:rgba(148, 171, 192, 0.651);
-    padding: 5px;
+    padding: 5%;
     border-radius: 20px;
+    text-align:justify;
+    text-indent: 3%;
 }
 
 .box img{
